@@ -14,7 +14,6 @@ void queue_destroy(Queue* Q) {
 }
 
 /* capacity */
-/* capacity */
 bool queue_empty(Queue* Q) {
     assert(Q != NULL);
     return empty(Q->list);
